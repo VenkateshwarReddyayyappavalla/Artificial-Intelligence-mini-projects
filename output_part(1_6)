@@ -1,0 +1,367 @@
+; SLIME 2.24; compiling file "c:/Users/vicky/portacle/final2.lisp" (written 15 MAR 2024 10:23:40 PM):
+; 
+; caught ERROR:
+;   READ error during COMPILE-FILE:
+;   
+;     Package ALEXANDRIA does not exist.
+;   
+;       Line: 68, Column: 41, File-Position: 1752
+;   
+;       Stream: #<SB-INT:FORM-TRACKING-STREAM for "file c:\\Users\\vicky\\portacle\\final2.lisp" {100467D113}>
+; 
+; compilation unit aborted
+;   caught 1 fatal ERROR condition
+;   caught 1 ERROR condition
+
+; compilation aborted after 0:00:00.015
+; compiling (DEFVAR _15-PUZZLE-1_ ...)
+; compiling (DEFVAR _15-PUZZLE-1_ ...)
+; compiling (DEFVAR _15-PUZZLE-2_ ...)
+; compiling (DEFVAR GOAL-STATE ...)
+; compiling (DEFUN LINEAR-CONFLICT ...)
+
+; file: C:/Users/vicky/AppData/Local/Temp/slime11
+; in: DEFUN LINEAR-CONFLICT
+;     (ARRAY-DIMENSION STATE 1)
+; 
+; caught WARNING:
+;   The array has dimensions (*), 1 is too large.
+
+;     (ARRAY-DIMENSION GOAL 1)
+; 
+; caught WARNING:
+;   The array has dimensions (*), 1 is too large.
+
+; file: C:/Users/vicky/AppData/Local/Temp/slime11
+; in: DEFUN LINEAR-CONFLICT
+;     (COUNT-CONFLICTS ROW-TILES GOAL-ROW-TILES)
+; 
+; caught STYLE-WARNING:
+;   undefined function: COMMON-LISP-USER::COUNT-CONFLICTS
+
+;     (MANHATTAN-DISTANCE STATE GOAL)
+; 
+; caught STYLE-WARNING:
+;   undefined function: COMMON-LISP-USER::MANHATTAN-DISTANCE
+; 
+; compilation unit finished
+;   Undefined functions:
+;     COUNT-CONFLICTS MANHATTAN-DISTANCE
+;   caught 2 WARNING conditions
+;   caught 2 STYLE-WARNING conditions
+; compiling (DEFUN COUNT-CONFLICTS ...)
+; compiling (DEFUN LINEAR-CONFLICT ...)
+
+; file: C:/Users/vicky/AppData/Local/Temp/slime131
+; in: DEFUN LINEAR-CONFLICT
+;     (ARRAY-DIMENSION STATE 1)
+; 
+; caught WARNING:
+;   The array has dimensions (*), 1 is too large.
+
+;     (ARRAY-DIMENSION GOAL 1)
+; 
+; caught WARNING:
+;   The array has dimensions (*), 1 is too large.
+
+; file: C:/Users/vicky/AppData/Local/Temp/slime131
+; in: DEFUN LINEAR-CONFLICT
+;     (MANHATTAN-DISTANCE STATE GOAL)
+; 
+; caught STYLE-WARNING:
+;   undefined function: COMMON-LISP-USER::MANHATTAN-DISTANCE
+; 
+; compilation unit finished
+;   Undefined function:
+;     MANHATTAN-DISTANCE
+;   caught 2 WARNING conditions
+;   caught 1 STYLE-WARNING condition
+; compiling (DEFVAR GOAL-STATE ...)
+; compiling (DEFUN COUNT-CONFLICTS ...)
+; compiling (DEFUN LINEAR-CONFLICT ...)
+
+; file: C:/Users/vicky/AppData/Local/Temp/slime206
+; in: DEFUN LINEAR-CONFLICT
+;     (ARRAY-DIMENSION STATE 1)
+; 
+; caught WARNING:
+;   The array has dimensions (*), 1 is too large.
+
+;     (ARRAY-DIMENSION GOAL 1)
+; 
+; caught WARNING:
+;   The array has dimensions (*), 1 is too large.
+
+; file: C:/Users/vicky/AppData/Local/Temp/slime206
+; in: DEFUN LINEAR-CONFLICT
+;     (MANHATTAN-DISTANCE STATE GOAL)
+; 
+; caught STYLE-WARNING:
+;   undefined function: COMMON-LISP-USER::MANHATTAN-DISTANCE
+; 
+; compilation unit finished
+;   Undefined function:
+;     MANHATTAN-DISTANCE
+;   caught 2 WARNING conditions
+;   caught 1 STYLE-WARNING condition
+; compiling (DEFVAR _15-PUZZLE-1_ ...)
+; compiling (DEFVAR _15-PUZZLE-2_ ...)
+; compiling (DEFVAR GOAL-STATE ...)
+; compiling (DEFUN LINEAR-CONFLICT ...)
+
+; file: C:/Users/vicky/AppData/Local/Temp/slime210
+; in: DEFUN LINEAR-CONFLICT
+;     (ARRAY-DIMENSION STATE 1)
+; 
+; caught WARNING:
+;   The array has dimensions (*), 1 is too large.
+
+;     (ARRAY-DIMENSION GOAL 1)
+; 
+; caught WARNING:
+;   The array has dimensions (*), 1 is too large.
+
+; file: C:/Users/vicky/AppData/Local/Temp/slime210
+; in: DEFUN LINEAR-CONFLICT
+;     (MANHATTAN-DISTANCE STATE GOAL)
+; 
+; caught STYLE-WARNING:
+;   undefined function: COMMON-LISP-USER::MANHATTAN-DISTANCE
+; 
+; compilation unit finished
+;   Undefined function:
+;     MANHATTAN-DISTANCE
+;   caught 2 WARNING conditions
+;   caught 1 STYLE-WARNING condition
+; compiling (DEFUN MANHATTAN-DISTANCE ...)
+; compiling (DEFUN LINEAR-CONFLICT ...)
+
+; file: C:/Users/vicky/AppData/Local/Temp/slime212
+; in: DEFUN LINEAR-CONFLICT
+;     (ARRAY-DIMENSION STATE 1)
+; 
+; caught WARNING:
+;   The array has dimensions (*), 1 is too large.
+
+;     (ARRAY-DIMENSION GOAL 1)
+; 
+; caught WARNING:
+;   The array has dimensions (*), 1 is too large.
+; 
+; compilation unit finished
+;   caught 2 WARNING conditions
+
+CL-USER>  (load "C:/Users/vicky/portacle/queue.lisp")
+T
+CL-USER>  (load "C:/users/vicky/portacle/quicklisp.lisp")
+
+  ==== quicklisp quickstart 2015-01-28 loaded ====
+
+    To continue with installation, evaluate: (quicklisp-quickstart:install)
+
+    For installation options, evaluate: (quicklisp-quickstart:help)
+
+T
+CL-USER>  (load "C:/users/vicky/portacle/priority-queue.lisp")
+T
+CL-USER> (ql:quickload :alexandria)
+To load "alexandria":
+  Load 1 ASDF system:
+    alexandria
+; Loading "alexandria"
+
+(:ALEXANDRIA)
+CL-USER> (breadth-first-search puzzle-0 goal-board)
+                       (breadth-first-search puzzle-1 goal-board)
+
+; in: BREADTH-FIRST-SEARCH PUZZLE-0
+;     (BREADTH-FIRST-SEARCH PUZZLE-0 GOAL-BOARD)
+; 
+; caught STYLE-WARNING:
+;   undefined function: COMMON-LISP-USER::BREADTH-FIRST-SEARCH
+; 
+; compilation unit finished
+;   Undefined function:
+;     BREADTH-FIRST-SEARCH
+;   caught 1 STYLE-WARNING condition
+; compiling file "c:/Users/vicky/portacle/final2.lisp" (written 15 MAR 2024 11:13:34 PM):
+; 
+; caught ERROR:
+;   READ error during COMPILE-FILE:
+;   
+;     illegal sharp macro character: #\
+;   
+;       Line: 47, Column: 25, File-Position: 843
+;   
+;       Stream: #<SB-INT:FORM-TRACKING-STREAM for "file c:\\Users\\vicky\\portacle\\final2.lisp" {10030E0F23}>
+; 
+; compilation unit aborted
+;   caught 1 fatal ERROR condition
+;   caught 1 ERROR condition
+
+; compilation aborted after 0:00:00.012
+; compiling file "c:/Users/vicky/portacle/final2.lisp" (written 15 MAR 2024 11:14:25 PM):
+
+; file: c:/Users/vicky/portacle/final2.lisp
+; in: DEFUN A*-SEARCH
+;     (EQUAL-STATES CURRENT-STATE GOAL)
+; 
+; caught STYLE-WARNING:
+;   undefined function: COMMON-LISP-USER::EQUAL-STATES
+
+; in: DEFUN RESULT
+;     (FIND-BLANK-POS STATE)
+; 
+; caught STYLE-WARNING:
+;   undefined function: COMMON-LISP-USER::FIND-BLANK-POS
+; 
+; compilation unit finished
+;   Undefined functions:
+;     EQUAL-STATES FIND-BLANK-POS
+;   caught 2 STYLE-WARNING conditions
+
+; wrote c:/Users/vicky/portacle/final2.fasl
+; compilation finished in 0:00:00.047
+; compiling (DEFUN GET-BLANK-POS ...)
+; compiling (DEFUN POSSIBLE-ACTIONS ...)
+; compiling (DEFUN COMPARE-STATES ...)
+; compiling file "c:/Users/vicky/portacle/final2.lisp" (written 15 MAR 2024 11:14:25 PM):
+
+; file: c:/Users/vicky/portacle/final2.lisp
+; in: DEFUN A*-SEARCH
+;     (EQUAL-STATES CURRENT-STATE GOAL)
+; 
+; caught STYLE-WARNING:
+;   undefined function: COMMON-LISP-USER::EQUAL-STATES
+
+; in: DEFUN RESULT
+;     (FIND-BLANK-POS STATE)
+; 
+; caught STYLE-WARNING:
+;   undefined function: COMMON-LISP-USER::FIND-BLANK-POS
+; 
+; compilation unit finished
+;   Undefined functions:
+;     EQUAL-STATES FIND-BLANK-POS
+;   caught 2 STYLE-WARNING conditions
+
+; wrote c:/Users/vicky/portacle/final2.fasl
+; compilation finished in 0:00:00.064
+; compiling file "c:/Users/vicky/portacle/final2.lisp" (written 15 MAR 2024 11:15:51 PM):
+
+; file: c:/Users/vicky/portacle/final2.lisp
+; in: DEFUN A*-SEARCH
+;     (EQUAL-STATES CURRENT-STATE GOAL)
+; 
+; caught STYLE-WARNING:
+;   undefined function: COMMON-LISP-USER::EQUAL-STATES
+
+; in: DEFUN RESULT
+;     (FIND-BLANK-POS STATE)
+; 
+; caught STYLE-WARNING:
+;   undefined function: COMMON-LISP-USER::FIND-BLANK-POS
+; 
+; compilation unit finished
+;   Undefined functions:
+;     EQUAL-STATES FIND-BLANK-POS
+;   caught 2 STYLE-WARNING conditions
+
+; wrote c:/Users/vicky/portacle/final2.fasl
+; compilation finished in 0:00:00.047
+; compiling (DEFUN RESULT ...)
+; compiling file "c:/Users/vicky/portacle/final2.lisp" (written 15 MAR 2024 11:16:46 PM):
+
+; file: c:/Users/vicky/portacle/final2.lisp
+; in: DEFUN A*-SEARCH
+;     (EQUAL-STATES CURRENT-STATE GOAL)
+; 
+; caught STYLE-WARNING:
+;   undefined function: COMMON-LISP-USER::EQUAL-STATES
+; 
+; compilation unit finished
+;   Undefined function:
+;     EQUAL-STATES
+;   caught 1 STYLE-WARNING condition
+
+; wrote c:/Users/vicky/portacle/final2.fasl
+; compilation finished in 0:00:00.047
+; compiling (DEFUN A*-SEARCH ...)
+; compiling file "c:/Users/vicky/portacle/final2.lisp" (written 15 MAR 2024 11:18:39 PM):
+
+; wrote c:/Users/vicky/portacle/final2.fasl
+; compilation finished in 0:00:00.047
+
+; No value
+CL-USER> (load "final2.lisp")
+T
+CL-USER> (breadth-first-search puzzle-0 goal-board)
+                       (breadth-first-search puzzle-1 goal-board)
+
+
+(:ACTIONS
+ ((1 0 LEFT) (0 0 UP) (0 1 RIGHT) (1 1 DOWN) (1 2 RIGHT) (2 2 DOWN) (2 1 LEFT)
+  (2 0 LEFT) (1 0 UP) (1 1 RIGHT) (1 2 RIGHT) (2 2 DOWN) (2 1 LEFT) (2 0 LEFT)
+  (1 0 UP) (1 1 RIGHT) (1 2 RIGHT) (0 2 UP) (0 1 LEFT) (0 0 LEFT) (1 0 DOWN)
+  (1 1 RIGHT) (1 2 RIGHT) (0 2 UP) (0 1 LEFT) (0 0 LEFT))
+ :SEQUENCE
+ (#2A((7 2 4) (5 NIL 6) (8 3 1)) #2A((7 2 4) (NIL 5 6) (8 3 1))
+  #2A((NIL 2 4) (7 5 6) (8 3 1)) #2A((2 NIL 4) (7 5 6) (8 3 1))
+  #2A((2 5 4) (7 NIL 6) (8 3 1)) #2A((2 5 4) (7 6 NIL) (8 3 1))
+  #2A((2 5 4) (7 6 1) (8 3 NIL)) #2A((2 5 4) (7 6 1) (8 NIL 3))
+  #2A((2 5 4) (7 6 1) (NIL 8 3)) #2A((2 5 4) (NIL 6 1) (7 8 3))
+  #2A((2 5 4) (6 NIL 1) (7 8 3)) #2A((2 5 4) (6 1 NIL) (7 8 3))
+  #2A((2 5 4) (6 1 3) (7 8 NIL)) #2A((2 5 4) (6 1 3) (7 NIL 8))
+  #2A((2 5 4) (6 1 3) (NIL 7 8)) #2A((2 5 4) (NIL 1 3) (6 7 8))
+  #2A((2 5 4) (1 NIL 3) (6 7 8)) #2A((2 5 4) (1 3 NIL) (6 7 8))
+  #2A((2 5 NIL) (1 3 4) (6 7 8)) #2A((2 NIL 5) (1 3 4) (6 7 8))
+  #2A((NIL 2 5) (1 3 4) (6 7 8)) #2A((1 2 5) (NIL 3 4) (6 7 8))
+  #2A((1 2 5) (3 NIL 4) (6 7 8)) #2A((1 2 5) (3 4 NIL) (6 7 8))
+  #2A((1 2 NIL) (3 4 5) (6 7 8)) #2A((1 NIL 2) (3 4 5) (6 7 8))
+  #2A((NIL 1 2) (3 4 5) (6 7 8))))
+CL-USER> (iterative-deepening-search puzzle-0 #2A((1 2 3) (4 5 6) (7 8 nil)))
+; in: ITERATIVE-DEEPENING-SEARCH PUZZLE-0
+;     (ITERATIVE-DEEPENING-SEARCH PUZZLE-0 #2A((1 2 3) (4 5 6) (7 8 NIL)))
+; 
+; caught STYLE-WARNING:
+;   undefined function: COMMON-LISP-USER::ITERATIVE-DEEPENING-SEARCH
+; 
+; compilation unit finished
+;   Undefined function:
+;     ITERATIVE-DEEPENING-SEARCH
+;   caught 1 STYLE-WARNING condition
+
+; No value
+CL-USER> (iterative-deepening-searching puzzle-0 #2A((1 2 3) (4 5 6) (7 8 nil)))
+
+
+
+(:ACTIONS
+ ((1 0 LEFT) (0 0 UP) (0 1 RIGHT) (0 2 RIGHT) (1 2 DOWN) (2 2 DOWN) (2 1 LEFT)
+  (1 1 UP) (1 0 LEFT) (0 0 UP) (0 1 RIGHT) (1 1 DOWN) (1 2 RIGHT) (0 2 UP)
+  (0 1 LEFT) (0 0 LEFT) (1 0 DOWN) (2 0 DOWN) (2 1 RIGHT) (1 1 UP) (1 2 RIGHT)
+  (2 2 DOWN))
+ :COST 22)
+CL-USER> (a*-search puzzle-0 goal-board #'num-misplaced)
+(a*-search puzzle-0 goal-b)
+
+; No value
+CL-USER> (a*-search puzzle-0 goal-board #'misplaced-tiles)
+(a*-search puzzle-0 goal-board #'manhattan-distance)
+
+
+; No value
+CL-USER>  (a*-search puzzle-0 goal-board #'misplaced-tiles)
+(a*-search puzzle-0 goal-board #'manhattan-distance)
+(:PATH ((1 0 LEFT) (2 0 DOWN) (2 1 RIGHT) (1 1 UP) (1 0 LEFT) (0 0 UP)) :STATES
+ (#2A((NIL 1 2) (3 4 5) (6 7 8)) #2A((3 1 2) (NIL 4 5) (6 7 8))
+  #2A((3 1 2) (4 NIL 5) (6 7 8)) #2A((3 1 2) (4 7 5) (6 NIL 8))
+  #2A((3 1 2) (4 7 5) (NIL 6 8)) #2A((3 1 2) (NIL 7 5) (4 6 8))))
+CL-USER> 
+
+
+
+
+
+
+

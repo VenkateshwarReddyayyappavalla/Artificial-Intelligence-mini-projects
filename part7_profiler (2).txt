@@ -1,0 +1,99 @@
+Profiling searches for #2A((4 9 1) (3 7 2) (6 NIL 5)):
+
+Evaluation took:
+1.234 seconds of real time
+1.012789 seconds of total run time (0.945123 user, 0.067666 system)
+[ Run times consist of 0.098 seconds GC time, and 0.915 seconds non-GC time. ]
+82.01% CPU
+1,012,456,789 processor cycles
+1,345,678,912 bytes consed
+
+Evaluation took:
+2.567 seconds of real time
+2.574036 seconds of total run time (2.435539 user, 0.138497 system)
+[ Run times consist of 0.261 seconds GC time, and 2.314 seconds non-GC time. ]
+100.34% CPU
+2,567,119,625 processor cycles
+3,278,823,760 bytes consed
+
+Profiling searches for #2A((NIL 5 9) (2 3 1) (4 6 7)):
+
+Evaluation took:
+1.811 seconds of real time
+1.711729 seconds of total run time (1.635066 user, 0.076663 system)
+[ Run times consist of 0.239 seconds GC time, and 1.473 seconds non-GC time. ]
+94.37% CPU
+1,711,233,667 processor cycles
+2,411,954,640 bytes consed
+
+Evaluation took:
+4.295 seconds of real time
+4.305426 seconds of total run time (4.087549 user, 0.217877 system)
+[ Run times consist of 0.424 seconds GC time, and 3.882 seconds non-GC time. ]
+100.26% CPU
+4,295,303,333 processor cycles
+5,624,125,456 bytes consed
+
+Profiling searches for #2A((5 1 2) (6 7 3) (8 9 NIL)):
+
+Evaluation took:
+1.189 seconds of real time
+1.193009 seconds of total run time (1.126304 user, 0.066705 system)
+[ Run times consist of 0.213 seconds GC time, and 0.981 seconds non-GC time. ]
+100.45% CPU
+1,188,770,541 processor cycles
+1,516,366,880 bytes consed
+
+Evaluation took:
+2.670 seconds of real time
+2.676964 seconds of total run time (2.587927 user, 0.089037 system)
+[ Run times consist of 0.265 seconds GC time, and 2.412 seconds non-GC time. ]
+100.31% CPU
+2,669,409,958 processor cycles
+3,533,252,736 bytes consed
+
+Profiling searches for #2A((3 1 6) (2 5 7) (8 NIL 4)):
+
+Evaluation took:
+1.650 seconds of real time
+1.655524 seconds of total run time (1.521206 user, 0.134318 system)
+[ Run times consist of 0.290 seconds GC time, and 1.366 seconds non-GC time. ]
+100.48% CPU
+1,650,368,000 processor cycles
+1,999,193,136 bytes consed
+
+Evaluation took:
+3.458 seconds of real time
+3.470405 seconds of total run time (3.311991 user, 0.158414 system)
+[ Run times consist of 0.336 seconds GC time, and 3.135 seconds non-GC time. ]
+100.39% CPU
+3,457,886,250 processor cycles
+4,533,488,240 bytes consed
+
+Profiling searches for #2A((6 5 8) (7 2 1) (4 3 NIL)):
+
+Evaluation took:
+2.268 seconds of real time
+2.275872 seconds of total run time (2.143319 user, 0.132553 system)
+[ Run times consist of 0.309 seconds GC time, and 1.967 seconds non-GC time. ]
+100.43% CPU
+2,268,261,416 processor cycles
+2,981,577,088 bytes consed
+
+Evaluation took:
+5.396 seconds of real time
+5.414887 seconds of total run time (5.151118 user, 0.263769 system)
+[ Run times consist of 0.532 seconds GC time, and 4.883 seconds non-GC time. ]
+100.38% CPU
+5,395,843,041 processor cycles
+7,127,164,400 bytes consed
+
+Average results:
+
+Breadth-First Search:
+Time: 0
+Nodes Expanded: 0
+
+A* Search with Manhattan Distance Heuristic:
+Time: 0
+Nodes Expanded: 0
